@@ -1,4 +1,4 @@
-package com.dhruv.ecom.project.Security.Jwt;
+package com.dhruv.ecom.project.SecurityJwt;
 
 public class LoginRequest {
     private String username;
