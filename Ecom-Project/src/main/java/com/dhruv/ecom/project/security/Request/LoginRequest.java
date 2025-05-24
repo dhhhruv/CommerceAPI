@@ -1,8 +1,13 @@
-package com.dhruv.ecom.project.SecurityJwt;
+package com.dhruv.ecom.project.security.Request;
+
+import jakarta.validation.constraints.NotBlank;
 
 public class LoginRequest {
+
+    @NotBlank
     private String username;
 
+    @NotBlank
     private String password;
 
     public String getUsername() {
